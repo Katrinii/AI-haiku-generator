@@ -1,1 +1,55 @@
+/*::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/161/661/original/Screenshot_2025-03-29_at_16.25.24.jpg?1743275475");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(3px);
+  z-index: -1;
+}*/
+html {
+  height: 100%;
+  background: radial-gradient(
+    circle at center,
+    #dcdcdc 0%,
+    #dcdcdc 40%,
+    #f8f8f8 48%,
+    #ffffff 58%
+  );
+  background-attachment: fixed;
+}
 
+body {
+  margin: 0;
+  height: 100%;
+  background: transparent;
+  position: relative;
+}
+/* Gradient background that blends with the image's off-white tone */
+
+/* ::before pseudo-element to display the image */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0; /* Anchor at the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+  width: 40vw; /* Adjust width as desired */
+  aspect-ratio: 2 / 3; /* Set aspect ratio (adjust if needed) */
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/161/661/original/Screenshot_2025-03-29_at_16.25.24.jpg?1743275475");
+  filter: blur(2.5px);
+  background-repeat: no-repeat;
+  background-size: contain; /* Ensure the entire image is visible */
+  background-position: center;
+  z-index: -1; /* Place behind other content */
+}
+.project {
+  display: block;
+  position: relative;
+  text-align: center;
+}
