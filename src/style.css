@@ -11,6 +11,12 @@
   filter: blur(3px);
   z-index: -1;
 }*/
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
   height: 100%;
   background: radial-gradient(
@@ -56,40 +62,16 @@ body::before {
   place-items: center;
   height: 100vh;
 }
-.special-elite-regular {
-  font-family: "Special Elite", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
+
 h1 {
   font-size: 45px;
-
   background: #ffffff74;
   padding: 15px;
   backdrop-filter: blur(10px);
   border-radius: 10px;
   padding-inline: 0.6rem;
 }
-main { 
-  background: #ffffff85;
-  backdrop-filter: blur(10px);
-  font-size: 25px;
-  border-radius: 10px;
-  text-align: center;
-  padding-block: 20px;
-  padding-inline: 30px;
-
-}
-/*.haiku-placeholder {
-  background: #ffffff85;
-  backdrop-filter: blur(10px);
-  font-size: 25px;
-  border-radius: 10px;
-  text-align: center;
-  padding-block: 20px;
-  padding-inline: 30px;
-}
-form {
+.centre-placeholders {
   background: #ffffff85;
   backdrop-filter: blur(10px);
   font-size: 25px;
