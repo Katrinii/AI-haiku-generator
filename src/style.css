@@ -28,6 +28,9 @@ body {
   height: 100%;
   background: transparent;
   position: relative;
+  font-family: "Special Elite", system-ui;
+  color: #001774cf;
+  background: #ffffff45;
 }
 /* Gradient background that blends with the image's off-white tone */
 
@@ -52,4 +55,18 @@ body::before {
   display: grid;
   place-items: center;
   height: 100vh;
+}
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-size: 45px;
+
+  background: #ffffff74;
+  padding: 15px;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding-inline: 0.6rem;
 }
