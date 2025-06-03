@@ -11,6 +11,7 @@
   filter: blur(3px);
   z-index: -1;
 }*/
+
 .special-elite-regular {
   font-family: "Special Elite", system-ui;
   font-weight: 400;
@@ -38,24 +39,22 @@ body {
   color: #001774cf;
   background: #ffffff45;
 }
-/* Gradient background that blends with the image's off-white tone */
 
-/* ::before pseudo-element to display the image */
 body::before {
   content: "";
   position: fixed;
   top: 0;
-  bottom: 0; /* Anchor at the bottom */
-  left: 50%; /* Center horizontally */
+  bottom: 0;
+  left: 50%;
   transform: translateX(-50%);
-  width: 40vw; /* Adjust width as desired */
-  aspect-ratio: 2 / 3; /* Set aspect ratio (adjust if needed) */
+  width: 40vw;
+  aspect-ratio: 2 / 3;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/161/661/original/Screenshot_2025-03-29_at_16.25.24.jpg?1743275475");
   filter: blur(2.5px);
   background-repeat: no-repeat;
-  background-size: contain; /* Ensure the entire image is visible */
+  background-size: contain;
   background-position: center;
-  z-index: -1; /* Place behind other content */
+  z-index: -1;
 }
 .project {
   display: grid;
