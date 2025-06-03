@@ -80,7 +80,12 @@ h1 {
   color: #a10000;
   background-color: rgba(255, 255, 255, 0.73);
   border-radius: 5px;
+  box-shadow: 0 5px 30px rgba(46, 75, 86, 0.247);
+  transition: all 200ms ease-in-out;
 }
 #text-input {
   color: black;
+}
+#submit-input:hover {
+  background-color: rgb(255, 255, 255);
 }
