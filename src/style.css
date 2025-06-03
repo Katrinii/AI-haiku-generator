@@ -89,3 +89,12 @@ h1 {
 #submit-input:hover {
   background-color: rgb(255, 255, 255);
 }
+
+a {
+  text-decoration: none;
+  color: rgb(146, 61, 225);
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(158, 85, 226);
+}
