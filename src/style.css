@@ -98,3 +98,6 @@ a:hover {
   text-decoration: underline;
   color: rgb(158, 85, 226);
 }
+footer {
+  transform: translate(0px, 62px);
+}
