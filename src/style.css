@@ -5,7 +5,7 @@
 }
 
 html {
-  height: 100%;
+  height: 800%;
   background: radial-gradient(
     circle at center,
     #dcdcdc 0%,
@@ -18,7 +18,7 @@ html {
 
 body {
   margin: 0;
-  height: 100%;
+  height: 800%;
   background: transparent;
   position: relative;
   font-family: "Special Elite", system-ui;
@@ -88,6 +88,44 @@ h1 {
 }
 #submit-input:hover {
   background-color: rgb(255, 255, 255);
+}
+
+.images {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+#blue-img,
+#yellow-img {
+  width: 500px;
+  height: 100vh;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+#blue-img img,
+#yellow-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+#blue-img img {
+  -webkit-mask-image: linear-gradient(to right, black 10%, transparent 80%);
+  mask-image: linear-gradient(to right, black 10%, transparent 80%);
+  backdrop-filter: blur(10px);
+}
+#yellow-img img {
+  -webkit-mask-image: linear-gradient(to left, black 10%, transparent 80%);
+  mask-image: linear-gradient(to left, black 10%, transparent 80%);
+  backdrop-filter: blur(10px);
 }
 
 a {
