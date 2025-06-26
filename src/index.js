@@ -10,7 +10,7 @@ function generatePoem(event) {
     delay: 100,
   })
     .typeString(
-      "Appreciation for experience: sight, smell, sound, taste, touch."
+      "Appreciation for experience itself: sight, smell, sound, taste, touch."
     )
     .start();
 }
