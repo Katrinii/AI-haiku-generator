@@ -7,6 +7,7 @@ function generatePoem(event) {
 
   new Typewriter("#example-poem", {
     loop: false,
+    delay: 100,
   })
     .typeString(
       "Appreciation for experience: sight, smell, sound, taste, touch."
